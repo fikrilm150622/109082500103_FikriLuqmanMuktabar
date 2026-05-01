@@ -55,7 +55,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_5/Output/SS_Soal_Latihan_1.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_9/Output/SS_Soal_Latihan_1.png) 
 
 ### [Penjelasan]
 Program ini dipakai untuk menentukan posisi sebuah titik terhadap dua lingkaran, apakah titik tersebut ada di dalam lingkaran 1, lingkaran 2, keduanya, atau justru di luar keduanya.
@@ -176,7 +176,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_5/Output/SS_Soal_Latihan_2.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_9/Output/SS_Soal_Latihan_2.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk mengolah data dalam array. Jadi nanti program bisa menampilkan isi array, memisahkan data berdasarkan indeks ganjil dan genap, menampilkan elemen dengan indeks kelipatan tertentu, menghapus data pada indeks tertentu, menghitung rata-rata dan standar deviasi, serta mencari berapa kali suatu angka muncul.
@@ -241,7 +241,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_5/Output/SS_Soal_Latihan_3.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_9/Output/SS_Soal_Latihan_3.png) 
 
 ### [Penjelasan]
 Program ini dipakai buat mencatat dan menampilkan hasil pertandingan antara dua klub bola. Jadi nanti user masukin nama klub dulu, terus masukin skor pertandingan satu per satu. Setelah input selesai, program baru menampilkan hasil tiap pertandingan (siapa yang menang atau draw).
@@ -359,7 +359,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_5/Output/SS_Soal_Latihan_4.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_9/Output/SS_Soal_Latihan_4.png) 
 
 ### [Penjelasan]
 Program ini dipakai buat membaca sekumpulan karakter dari user, terus karakter itu dibalik urutannya (reverse), dan dicek juga apakah termasuk palindrom atau nggak. User masukin huruf satu per satu, dan berhenti kalau sudah ketemu tanda titik (.). Setelah itu program bakal nampilin hasil kebalikannya dan hasil pengecekan palindrom (true atau false).
