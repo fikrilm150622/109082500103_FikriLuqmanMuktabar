@@ -42,7 +42,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_9/Output/SS_Soal_Latihan_1.png) belom diganti 
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_10/Output/SS_Soal_Latihan_1.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk mencari berat anak kelinci yang paling kecil dan paling besar dari data yang diinputkan. User akan memasukkan jumlah anak kelinci terlebih dahulu, kemudian memasukkan berat masing-masing anak kelinci satu per satu. Setelah seluruh data selesai diinput, program akan menampilkan berat terkecil dan berat terbesar.
@@ -113,7 +113,7 @@ fmt.Printf("Rata-rata berat setiap wadah: %.1f\n", rata)
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_9/Output/SS_Soal_Latihan_2.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_10/Output/SS_Soal_Latihan_2.png) 
 
 ### [Penjelasan]
 Program ini digunakan untuk menghitung total berat ikan di setiap wadah dan mencari rata-rata berat ikan per wadah. User akan memasukkan jumlah ikan terlebih dahulu, kemudian memasukkan jumlah ikan yang dapat dimasukkan ke dalam satu wadah. Setelah itu user memasukkan berat masing-masing ikan satu per satu. Setelah seluruh data selesai diinput, program akan menampilkan total berat ikan di setiap wadah dan rata-rata berat setiap wadah.
@@ -206,7 +206,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_9/Output/SS_Soal_Latihan_3.png) belom diganti 
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_10/Output/SS_Soal_Latihan_3.png) 
 
 ### [Penjelasan]
 Program ini digunakan untuk mencari berat balita paling kecil, paling besar, dan menghitung rerata berat balita dari data yang diinputkan. User akan memasukkan jumlah data berat balita terlebih dahulu, kemudian memasukkan berat masing-masing balita satu per satu. Setelah seluruh data selesai diinput, program akan menampilkan berat minimum, berat maksimum, dan rerata berat balita.
