@@ -51,8 +51,7 @@ import "fmt" digunakan untuk memanggil package fmt yang berfungsi untuk proses i
 type arrFloat [1000]float64 digunakan untuk membuat tipe data array bernama arrFloat yang mampu menyimpan hingga 1000 data bertipe float64 atau bilangan desimal.
 func main() {...} merupakan bagian utama program tempat seluruh proses dijalankan.
 Pada awal program dibuat beberapa variabel:
-- data digunakan untuk menyimpan seluruh berat anak kelinci
-- n digunakan untuk menyimpan jumlah anak kelinci yang akan diinput
+data yang digunakan untuk menyimpan seluruh berat anak kelinci dan n yang digunakan untuk menyimpan jumlah anak kelinci yang akan diinput
 Setelah itu program meminta user memasukkan jumlah anak kelinci menggunakan fmt.Print dan fmt.Scan.
 Selanjutnya program melakukan input berat anak kelinci menggunakan perulangan for. Perulangan dimulai dari i = 0 dan akan terus berjalan hingga jumlah data yang dimasukkan terpenuhi.
 Setiap berat anak kelinci yang diinput akan disimpan ke dalam array data sesuai indeksnya masing-masing.
@@ -63,12 +62,10 @@ Artinya, data pertama dijadikan sebagai nilai terkecil sementara dan nilai terbe
 Kemudian program mulai mencari nilai minimum dan maksimum menggunakan perulangan:
 for i < n
 Di dalam perulangan dilakukan pengecekan:
-- Jika data[i] lebih kecil dari min, maka nilai min diperbarui dengan data tersebut.
-- Jika data[i] lebih besar dari max, maka nilai max diperbarui dengan data tersebut.
+Jika data[i] lebih kecil dari min, maka nilai min diperbarui dengan data tersebut dan jika data[i] lebih besar dari max, maka nilai max diperbarui dengan data tersebut.
 Proses ini dilakukan terus hingga seluruh data selesai diperiksa satu per satu.
 Pada bagian akhir, program akan menampilkan hasil pencarian berupa:
-- berat anak kelinci paling kecil
-- berat anak kelinci paling besar
+berat anak kelinci paling kecil dan berat anak kelinci paling besar
 fmt.Printf digunakan untuk menampilkan angka desimal dengan format satu angka di belakang koma menggunakan %.1f.
 
 ### 2. [Soal]
@@ -121,11 +118,8 @@ package main berarti program ini merupakan program utama yang dapat langsung dij
 import "fmt" digunakan untuk memanggil package fmt yang berfungsi untuk proses input dan output, seperti Print, Scan, dan Printf.
 type arrIkan [1000]float64 digunakan untuk membuat tipe data array bernama arrIkan yang mampu menyimpan hingga 1000 data bertipe float64 atau bilangan desimal.
 func main() {...} merupakan bagian utama program tempat seluruh proses dijalankan.
-Pada awal program dibuat beberapa variabel:
-- ikan digunakan untuk menyimpan seluruh berat ikan
-- x digunakan untuk menyimpan jumlah ikan yang akan diinput
-- y digunakan untuk menyimpan jumlah ikan dalam setiap wadah
-- rata digunakan untuk menyimpan hasil rata-rata berat setiap wadah
+Pada awal program dibuat beberapa variabel, yaitu:
+ikan digunakan untuk menyimpan seluruh berat ikan, x digunakan untuk menyimpan jumlah ikan yang akan diinput, y digunakan untuk menyimpan jumlah ikan dalam setiap wadah, dan rata digunakan untuk menyimpan hasil rata-rata berat setiap wadah
 Setelah itu program meminta user memasukkan jumlah ikan dan jumlah ikan per wadah menggunakan fmt.Print dan fmt.Scan.
 Selanjutnya program melakukan input berat ikan menggunakan perulangan for. Perulangan dimulai dari i = 0 dan akan terus berjalan hingga jumlah data ikan yang dimasukkan terpenuhi.
 Setiap berat ikan yang diinput akan disimpan ke dalam array ikan sesuai indeksnya masing-masing.
@@ -138,8 +132,7 @@ Lalu program menggunakan perulangan lagi:
 for j := 0; j < y && i < x; j++
 Perulangan ini digunakan untuk mengelompokkan ikan ke dalam wadah sesuai jumlah yang ditentukan oleh user.
 Di dalam perulangan dilakukan proses:
-- total = total + ikan[i] digunakan untuk menjumlahkan berat ikan pada wadah saat ini.
-- i++ digunakan untuk berpindah ke data ikan berikutnya.
+total = total + ikan[i] digunakan untuk menjumlahkan berat ikan pada wadah saat ini dan i++ digunakan untuk berpindah ke data ikan berikutnya.
 Setelah seluruh ikan dalam satu wadah selesai dijumlahkan, program menampilkan total berat wadah menggunakan:
 fmt.Printf("%.1f ", total)
 Kemudian nilai total tersebut ditambahkan ke variabel rata menggunakan:
@@ -149,8 +142,7 @@ Setelah semua total berat wadah diperoleh, program menghitung rata-rata berat se
 rata = rata / float64((x+y-1)/y)
 Bagian float64 digunakan agar hasil pembagian menjadi bilangan desimal.
 Pada bagian akhir, program akan menampilkan:
-- total berat ikan di setiap wadah
-- rata-rata berat setiap wadah
+total berat ikan di setiap wadah dan rata-rata berat setiap wadah
 fmt.Printf digunakan untuk menampilkan angka desimal dengan format satu angka di belakang koma menggunakan %.1f.
 
 
@@ -214,8 +206,7 @@ package main berarti program ini merupakan program utama yang dapat langsung dij
 import "fmt" digunakan untuk memanggil package fmt yang berfungsi untuk proses input dan output, seperti Print, Scan, dan Printf.
 type arrBalita [100]float64 digunakan untuk membuat tipe data array bernama arrBalita yang mampu menyimpan hingga 100 data bertipe float64 atau bilangan desimal.
 Program ini memiliki dua subprogram, yaitu:
-- func hitungMinMax()
-- func rerata()
+func hitungMinMax() dan func rerata()
 func hitungMinMax() digunakan untuk mencari nilai minimum dan maksimum dari data berat balita.
 Di dalam function hitungMinMax(), nilai awal minimum dan maksimum ditentukan dengan:
 *bMin = arrBerat[0]
@@ -224,8 +215,7 @@ Artinya, data pertama dijadikan sebagai nilai minimum sementara dan nilai maksim
 Kemudian program melakukan perulangan: for i := 1; i < n; i++
 Perulangan dimulai dari data kedua karena data pertama sudah dijadikan nilai awal minimum dan maksimum.
 Di dalam perulangan dilakukan pengecekan:
-- Jika arrBerat[i] lebih kecil dari *bMin, maka nilai minimum diperbarui dengan data tersebut.
-- Jika arrBerat[i] lebih besar dari *bMax, maka nilai maksimum diperbarui dengan data tersebut.
+Jika arrBerat[i] lebih kecil dari *bMin, maka nilai minimum diperbarui dengan data tersebut dan jika arrBerat[i] lebih besar dari *bMax, maka nilai maksimum diperbarui dengan data tersebut.
 Proses ini dilakukan terus hingga seluruh data selesai diperiksa satu per satu.
 Function rerata() digunakan untuk menghitung rata-rata berat balita.
 Di dalam function rerata(), dibuat variabel: total
@@ -235,12 +225,7 @@ Di dalam perulangan, seluruh data berat balita dijumlahkan menggunakan: total = 
 Setelah semua data selesai dijumlahkan, function mengembalikan nilai rata-rata dengan: return total / float64(n)
 Bagian float64(n) digunakan agar hasil pembagian menjadi bilangan desimal.
 func main() {...} merupakan bagian utama program tempat seluruh proses dijalankan.
-Pada awal program dibuat beberapa variabel:
-- arrBerat digunakan untuk menyimpan seluruh data berat balita
-- n digunakan untuk menyimpan jumlah data balita yang akan diinput
-- bMin digunakan untuk menyimpan berat minimum balita
-- bMax digunakan untuk menyimpan berat maksimum balita
-- rata digunakan untuk menyimpan rerata berat balita
+Pada awal program dibuat beberapa variabel, yaitu: arrBerat yang digunakan untuk menyimpan seluruh data berat balita, n digunakan untuk menyimpan jumlah data balita yang akan diinput, bMin digunakan untuk menyimpan berat minimum balita, bMax digunakan untuk menyimpan berat maksimum balita, dan rata digunakan untuk menyimpan rerata berat balita
 Setelah itu program meminta user memasukkan jumlah data berat balita menggunakan fmt.Print dan fmt.Scan.
 Selanjutnya program melakukan input berat balita menggunakan perulangan for. Perulangan dimulai dari i = 0 dan akan terus berjalan hingga jumlah data yang dimasukkan terpenuhi.
 Setiap berat balita yang diinput akan disimpan ke dalam array arrBerat sesuai indeksnya masing-masing.
@@ -249,7 +234,5 @@ Function tersebut digunakan untuk mencari nilai minimum dan maksimum.
 Kemudian program memanggil function: rata = rerata(arrBerat, n)
 Function tersebut digunakan untuk menghitung rerata berat balita.
 Pada bagian akhir, program akan menampilkan:
-- berat balita minimum
-- berat balita maksimum
-- rerata berat balita
+berat balita minimum, berat balita maksimum, dan rerata berat balita
 fmt.Printf digunakan untuk menampilkan angka desimal dengan format dua angka di belakang koma menggunakan %.2f.
