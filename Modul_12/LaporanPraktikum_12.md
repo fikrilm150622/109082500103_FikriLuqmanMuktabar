@@ -37,7 +37,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_10/Output/SS_Soal_Latihan_1.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_12/Output/SS_Soal_Latihan_1.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk membaca, memvalidasi, dan menghitung suara pada pemilihan ketua RT. Data suara dimasukkan dalam bentuk angka yang mewakili nomor calon ketua RT. Kemudan program akan menghitung jumlah seluruh suara yang masuk, jumlah suara sah, serta menampilkan jumlah suara yang diperoleh masing-masing calon.
@@ -106,7 +106,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_10/Output/SS_Soal_Latihan_2.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_12/Output/SS_Soal_Latihan_2.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk membaca, memvalidasi, dan menghitung suara pada pemilihan ketua RT. Selain menghitung jumlah suara yang masuk dan suara sah, program juga menentukan calon yang menjadi ketua RT dan wakil ketua RT berdasarkan jumlah suara terbanyak.
@@ -114,7 +114,7 @@ package main berarti program ini merupakan program utama yang dapat langsung dij
 import "fmt" digunakan untuk memanggil package fmt yang berfungsi untuk proses input dan output, seperti Scan dan Println.
 func main() {...} merupakan fungsi utama tempat seluruh proses program dijalankan.
 Pada awal program dibuat beberapa variabel, yaitu:
-suara [21]int yang digunakan untuk menyimpan jumlah suara setiap calon ketua RT. Indeks array digunakan mulai dari 1 sampai 20 sesuai nomor calon. Lalu, x digunakan untuk menyimpan data suara yang diinput, kemudian totalMasuk digunakan untuk menghitung jumlah seluruh suara yang masuk, suaraSah digunakan untuk menghitung jumlah suara valid atau sah. Di program yang kedua ini ada tambahan variabel yaitu; ketua yang digunakan untuk menyimpan nomor calon yang memperoleh suara terbanyak, kemudian wakil digunakan untuk menyimpan nomor calon yang memperoleh suara terbanyak kedua, lalu suaraTerbanyak digunakan untuk menyimpan jumlah suara terbesar sementara, dan suaraKedua digunakan untuk menyimpan jumlah suara terbesar kedua sementara.
+suara [21]int yang digunakan untuk menyimpan jumlah suara setiap calon ketua RT. Indeks array digunakan mulai dari 1 sampai 20 sesuai nomor calon. Lalu, x digunakan untuk menyimpan data suara yang diinput, kemudian totalMasuk digunakan untuk menghitung jumlah seluruh suara yang masuk, suaraSah digunakan untuk menghitung jumlah suara valid atau sah. Di program yang kedua ini ada tambahan beberapa variabel yaitu; ketua yang digunakan untuk menyimpan nomor calon yang memperoleh suara terbanyak, kemudian wakil digunakan untuk menyimpan nomor calon yang memperoleh suara terbanyak kedua, lalu suaraTerbanyak digunakan untuk menyimpan jumlah suara terbesar sementara, dan suaraKedua digunakan untuk menyimpan jumlah suara terbesar kedua sementara.
 Program kemudian membaca data pertama menggunakan: fmt.Scan(&x)
 Selanjutnya program melakukan proses pembacaan data menggunakan perulangan: for x != 0
 Perulangan akan terus berjalan selama data yang dimasukkan bukan 0. Angka 0 digunakan sebagai tanda bahwa proses input telah selesai.
@@ -185,7 +185,7 @@ func posisi(n, k int) int {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_10/Output/SS_Soal_Latihan_3.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_12/Output/SS_Soal_Latihan_3.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk mencari suatu bilangan pada kumpulan data integer yang sudah terurut membesar menggunakan metode Binary Search. Program akan menampilkan posisi data yang dicari jika ditemukan, atau menampilkan tulisan “TIDAK ADA” jika data tidak ditemukan.
