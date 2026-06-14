@@ -58,7 +58,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_12/Output/SS_Soal_Latihan_1.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_14/Output/SS_Soal_Latihan_1.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk mengurutkan nomor rumah kerabat Hercules pada setiap daerah secara menaik (ascending) menggunakan algoritma Selection Sort. Data masukan berupa sejumlah daerah, kemudian untuk setiap daerah dimasukkan daftar nomor rumah kerabat. Setelah proses pengurutan selesai, program akan menampilkan nomor rumah yang telah terurut dari yang terkecil hingga terbesar.
@@ -180,7 +180,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_12/Output/SS_Soal_Latihan_2.png) belom diganti
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_14/Output/SS_Soal_Latihan_2.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk mengelompokkan nomor rumah kerabat Hercules menjadi dua kategori, yaitu nomor rumah ganjil dan genap. Selanjutnya, nomor rumah ganjil diurutkan secara menaik (ascending), sedangkan nomor rumah genap diurutkan secara menaik terlebih dahulu kemudian ditampilkan secara terbalik sehingga menghasilkan urutan menurun (descending). Setelah itu, program menampilkan seluruh nomor rumah ganjil terlebih dahulu, diikuti nomor rumah genap.
@@ -309,7 +309,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_12/Output/SS_Soal_Latihan_3.png) belom diganti 
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_14/Output/SS_Soal_Latihan_3.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk membaca sekumpulan bilangan bulat non-negatif, kemudian mengurutkannya menggunakan metode Insertion Sort secara menaik (ascending). Setelah data terurut, program akan memeriksa apakah selisih antara setiap dua data yang berurutan selalu sama. Jika selisihnya tetap, program akan menampilkan nilai jaraknya. Jika tidak, program akan menampilkan informasi bahwa data memiliki jarak yang tidak tetap.
@@ -489,7 +489,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_12/Output/SS_Soal_Latihan_3.png) belom diganti 
+![Screenshot Output Unguided 1_1](https://github.com/fikrilm150622/109082500103_FikriLuqmanMuktabar/blob/main/Modul_14/Output/SS_Soal_Latihan_4.png)
 
 ### [Penjelasan]
 Program ini digunakan untuk mengelola data buku dalam sebuah perpustakaan. Program dapat membaca data buku, menampilkan buku dengan rating tertinggi, mengurutkan data buku berdasarkan rating secara menurun menggunakan metode Insertion Sort, menampilkan lima buku dengan rating tertinggi, serta mencari buku berdasarkan rating menggunakan metode Binary Search.
